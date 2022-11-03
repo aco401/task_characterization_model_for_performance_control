@@ -1,0 +1,3 @@
+[submodule "RiotClockConf"]
+	path = RiotClockConf
+	url = git@github.com:MichelRottleuthner/RiotClockConf.git

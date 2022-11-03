@@ -1,9 +1,8 @@
 # Appendix of bachelor thesis on topic: Design and Evaluation of a Task Characterization Model for Performance Control of Embedded Devices at Runtime
 
-Author: Tobias Westphal
-Email: tobias.westphal@haw-hamburg.de
+Author: Tobias Westphal, Email: tobias.westphal@haw-hamburg.de
 
-This repository contains source code, scripts and data that has been created alongside the work.
+This repository contains source code, scripts and data that has been created alongside the thesis.
 
 This repository lists:
 - Riot Fork with ScaleClock implementation containing: {µC} (Riot/)
@@ -14,7 +13,7 @@ This repository lists:
         - measure the delay of the trace utlity and perform TPIU configuration tests (tests/oszilloscope-and-tests/)
     - Set of tasks to evaluate the task characterization model with (pkg/beebs/)
 
-- Measurement Scripts: {PC} (Measurement_Utils/)
+- Measurement Utilities: {PC} (Measurement_Utils/)
     - Experiment Utility - start automated task characterization, energy or delay experiments and save data to pickle of DataFrame (experiment_to_pickle.py)
     - Data Processing - Merge data pickles for easier plotting (pickle_merge.py)
     - Data Visualization - Plot DataFrames from pickles (pickle_to_plot.py)
@@ -29,6 +28,6 @@ This repository lists:
     - Configuration json files for benchmarks (json_config_files/)
     - Measured Task Characterization Results, Energy Results, Delay Results (results/)
 
-- Scripts:
+- Scripts: (Scripts/)
     - Start experiment
     - Plot Data with pickle

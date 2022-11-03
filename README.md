@@ -4,8 +4,8 @@ Author: Tobias Westphal, Email: tobias.westphal@haw-hamburg.de
 
 This repository contains source code, scripts and data that has been created alongside the thesis.
 
-This repository lists:
-- Riot ScaleClock Fork on *clock_config_clean_task_characterization* branch containing: {µC} (RiotClockConf/)
+## This repository lists:
+- Riot ScaleClock Fork on `clock_config_clean_task_characterization` branch containing: {µC} (RiotClockConf/)
     - Implementation of task characterization model with Nucleo-l476RG board (drivers/armv7m_dbg_task_characterization)
     - Task Benchmark Utility to
         - trace workloads with the task characterization model (tests/gclk/profiling_counter_bench.c & tests/gclk/workloads.c)
@@ -29,11 +29,11 @@ This repository lists:
     - Measured Task Characterization Results, Energy Results, Delay Results (results/)
 
 - Scripts: (Scripts/)
-    - Start experiment
-    - Plot data with pickle
+    - Start experiment (Experiment/)
+    - Plot data with pickle (Plots/)
 
-# Links:
+## Links:
 - BEEBS patches-for-riot - [https://github.com/aco401/beebs/tree/patches-for-riot]
 - Riot Beebs pkg - [https://github.com/aco401/RIOT/tree/feature-beebs]
 
-- Riot Fork (RiotClockConf/) [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization]
+- Riot Fork on `clock_config_clean_task_characterization` branch (RiotClockConf/) [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization]

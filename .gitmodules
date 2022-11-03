@@ -1,3 +1,4 @@
 [submodule "RiotClockConf"]
 	path = RiotClockConf
 	url = git@github.com:MichelRottleuthner/RiotClockConf.git
+	branch = clock_config_clean_task_characterization

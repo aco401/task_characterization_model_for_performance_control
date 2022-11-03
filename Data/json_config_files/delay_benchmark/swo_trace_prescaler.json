@@ -1,0 +1,12 @@
+[
+    {
+        "json_name" : "swo_prescaler",
+        "cmd_name" : "oszi_ecp_delay",
+        "constant_cmd_arg" : "-i -conf_enc 2",
+        "trace_mode" : [0, 1, 2],
+        "prf_cnt" : [5, 2, 0],
+        "conf_psc" : [2, 1, 0],
+        "sleep_mode" : [0, 1, 2],
+        "iter" : 10000
+    }
+]

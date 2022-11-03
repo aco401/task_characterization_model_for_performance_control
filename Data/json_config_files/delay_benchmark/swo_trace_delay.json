@@ -1,0 +1,65 @@
+[
+    {
+        "json_name" : "rigol_trace_phases",
+        "cmd_name" : "oszi_trace_phases",
+        "mode": [0, 1],
+        "iter": 1,
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_phases", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? fdelay", "ret": 0}
+    },
+    {
+        "json_name" : "rigol_trace_delay",
+        "cmd_name" : "oszi_trace_duration",
+        "mode": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14],
+        "iter": 1,
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_swo_delay", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? fdelay", "ret": 0}
+    },
+    {
+        "json_name" : "rigol_ecp_delay",
+        "cmd_name" : "oszi_ecp_delay",
+        "constant_cmd_arg" : "-i -conf_enc 2",
+        "prf_cnt" : [0, 2, 5, 100],
+        "conf_psc" : [0, 1, 2, 3],
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_ecp_delay", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? fdelay", "ret": 0}
+    },
+    {
+        "json_name" : "rigol_ecp_wave",
+        "cmd_name" : "oszi_ecp_delay",
+        "constant_cmd_arg" : "-i -conf_enc 2",
+        "prf_cnt" : [100],
+        "conf_psc" : [0, 1, 2, 3],
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_ecp_wave", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_wave_channel": "CH2",
+        "rigol_wave_frames": 0,
+        "rigol_wave_mode": "NORMAL",
+        "rigol_wave_format": "BYTE"
+    },
+    {
+        "json_name" : "rigol_gpio_delay",
+        "cmd_name" : "oszi_gpio_delay",
+        "constant_cmd_arg" : "-i -iter 0",
+        "mode": [3, 4],
+        "rising_flank" : [0, 1],
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_gpio_delay", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? rdelay", "ret": 0}
+    },
+    {
+        "json_name" : "rigol_ctx_switch_delay",
+        "cmd_name" : "oszi_ctx_switch",
+        "constant_cmd_arg" : "-i -iter 100",
+        "rising_flank" : [1],
+        "rigol_setup_exp" : {"name" : "rigol_setup_ctx_switch_delay", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? pwidth", "ret": 0}
+    },
+    {
+        "json_name" : "rigol_trace_stop_delay",
+        "cmd_name" : "oszi_trace_stop",
+        "constant_cmd_arg" : "-i",
+        "iter": 1,
+        "mode": [0, 1, 2, 3, 4, 5],
+        "rigol_setup_exp" : {"name" : "rigol_setup_trace_stop_delay", "path" : "/home/tobi/RIOT_ARBEIT/flexclock_code/BA_Measurement_Utils/json_config_files/delay_benchmark/rigol_exp.json"},
+        "rigol_measure" : {"cmd":":MEASure:ITEM? fdelay", "ret": 0}
+    }
+]

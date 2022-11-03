@@ -1,0 +1,142 @@
+[
+  {
+    "json_name": "beebs_aha_compress",
+    "cmd_name": "beebs_aha_compress",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_aha_mont64",
+    "cmd_name": "beebs_aha_mont64",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_bubblesort",
+    "cmd_name": "beebs_bubblesort",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_cubic",
+    "cmd_name": "beebs_cubic",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 200,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_dtoa",
+    "cmd_name": "beebs_dtoa",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_levenshtein",
+    "cmd_name": "beebs_levenshtein",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_miniz",
+    "cmd_name": "beebs_miniz",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_aes",
+    "cmd_name": "beebs_nettle_aes",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_arcfour",
+    "cmd_name": "beebs_nettle_arcfour",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_cast128",
+    "cmd_name": "beebs_nettle_cast128",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_des",
+    "cmd_name": "beebs_nettle_des",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_md5",
+    "cmd_name": "beebs_nettle_md5",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nettle_sha256",
+    "cmd_name": "beebs_nettle_sha256",
+    "makefile_dep": "WL_BEEBS_NETTLE=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_qrduino",
+    "cmd_name": "beebs_qrduino",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_mergesort",
+    "cmd_name": "beebs_mergesort",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_slre",
+    "cmd_name": "beebs_slre",
+    "makefile_dep": "WL_BEEBS_EMBENCH=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_stb_perlin",
+    "cmd_name": "beebs_stb_perlin",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_strstr",
+    "cmd_name": "beebs_strstr",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_tarai",
+    "cmd_name": "beebs_tarai",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_whetstone",
+    "cmd_name": "beebs_whetstone",
+    "makefile_dep": "WL_BEEBS_OTHER=1",
+    "iter": 100,
+    "iter_mode": 1
+  }
+]

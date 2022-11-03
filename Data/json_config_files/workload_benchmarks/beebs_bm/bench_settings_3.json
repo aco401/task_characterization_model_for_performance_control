@@ -1,0 +1,212 @@
+[
+  {
+    "json_name": "beebs_bs",
+    "cmd_name": "beebs_bs",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_cnt",
+    "cmd_name": "beebs_cnt",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_compress",
+    "cmd_name": "beebs_compress",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_cover",
+    "cmd_name": "beebs_cover",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_crc",
+    "cmd_name": "beebs_crc",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_duff",
+    "cmd_name": "beebs_duff",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_edn",
+    "cmd_name": "beebs_edn",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_expint",
+    "cmd_name": "beebs_expint",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_fac",
+    "cmd_name": "beebs_fac",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_fdct",
+    "cmd_name": "beebs_fdct",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_fibcall",
+    "cmd_name": "beebs_fibcall",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_insertsort",
+    "cmd_name": "beebs_insertsort",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_janne_complex",
+    "cmd_name": "beebs_janne_complex",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_jfdctint",
+    "cmd_name": "beebs_jfdctint",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_lcdnum",
+    "cmd_name": "beebs_lcdnum",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_ludcmp",
+    "cmd_name": "beebs_ludcmp",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_matmult",
+    "cmd_name": "beebs_matmult",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_minver",
+    "cmd_name": "beebs_minver",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_ndes",
+    "cmd_name": "beebs_ndes",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_ns",
+    "cmd_name": "beebs_ns",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_nsichneu",
+    "cmd_name": "beebs_nsichneu",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_prime",
+    "cmd_name": "beebs_prime",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_qsort",
+    "cmd_name": "beebs_qsort",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_qurt",
+    "cmd_name": "beebs_qurt",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_recursion",
+    "cmd_name": "beebs_recursion",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_select",
+    "cmd_name": "beebs_select",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_sqrt",
+    "cmd_name": "beebs_sqrt",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_st",
+    "cmd_name": "beebs_st",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_statemate",
+    "cmd_name": "beebs_statemate",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  },
+  {
+    "json_name": "beebs_ud",
+    "cmd_name": "beebs_ud",
+    "makefile_dep": "WL_BEEBS_WCET=1",
+    "iter": 100,
+    "iter_mode": 1
+  }
+]

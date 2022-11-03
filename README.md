@@ -11,7 +11,7 @@ This repository lists:
         - trace workloads with the task characterization model (tests/gclk/profiling_counter_bench.c & tests/gclk/workloads.c)
         - start energy measurements (tests/gclk/profiling_counter_bench.c)
         - measure the delay of the trace utlity and perform TPIU configuration tests (tests/oszilloscope-and-tests/)
-    - Set of tasks to evaluate the task characterization model with (pkg/beebs/)
+    - BEEBS set of tasks to evaluate the task characterization model with (pkg/beebs/)
 
 - Measurement Utilities: {PC} (Measurement_Utils/)
     - Experiment Utility - start automated task characterization, energy or delay experiments and save data to pickle of DataFrame (experiment_to_pickle.py)
@@ -24,10 +24,14 @@ This repository lists:
     - Analysis of Riot Boards for Cortex-M CPUs (riot_board_analysis.ipynb)
 
 - Data: (Data/)
-    - Compiled beebs source code for static analysis (assembler_code/)
+    - Compiled BEEBS source code for static analysis (assembler_code/)
     - Configuration json files for benchmarks (json_config_files/)
     - Measured Task Characterization Results, Energy Results, Delay Results (results/)
 
 - Scripts: (Scripts/)
     - Start experiment
     - Plot Data with pickle
+
+# Links:
+- BEEBS patches-for-riot - [https://github.com/aco401/beebs/tree/patches-for-riot]
+- Riot Fork [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization]

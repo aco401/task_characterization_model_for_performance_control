@@ -1,0 +1,56 @@
+[
+  {
+    "bm_name": "swo_bench", 
+    "args": {
+        "config_id" : 1,
+        "prf_cnt": [1, 2, 3, 4, 5],
+        "freq": [4, 3, 2, 1, 0],
+        "dvs_pol": ["ffpol", "lvpol"],
+        "fwsa": [1],
+        "dvs": [1],
+        "bench_repetition" : 3,
+        "unique_same_iter" : true,
+        "cache" : [0]
+    }
+  },
+  {
+    "bm_name": "energy_bench",
+    "args": {
+      "freq": [4, 3, 2, 1, 0],
+      "dvs_pol": ["lvpol", "ffpol"],
+      "fwsa": [1],
+      "dvs": [1],
+      "bench_repetition" : 10,
+      "unique_same_iter" : true,
+      "cache" : [0],
+      "work_args_last" : false
+    }
+  },
+  {
+    "bm_name": "trace_delay",
+    "args": {
+      "freq": [0, 4],
+      "dvs_pol": ["ffpol"],
+      "fwsa": [1],
+      "bench_repetition" : 10
+    }
+  },
+  {
+    "bm_name": "trace_wave",
+    "args": {
+      "freq": [0, 1, 2, 3, 4],
+      "dvs_pol": ["ffpol"],
+      "fwsa": [1],
+      "bench_repetition" : 10
+    }
+  },
+  {
+    "bm_name": "trace_prescaler",
+    "args": {
+      "freq": [4, 3],
+      "dvs_pol": ["ffpol"],
+      "fwsa": [1],
+      "bench_repetition" : 1
+    }
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "name": "rigol_setup_trace_phases",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.0000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000011"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel2:probe 1"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":MEASure:ITEM fdelay"}
+    ]
+  },
+  {
+    "name": "rigol_setup_trace_swo_delay",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.0000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000011"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel2:probe 1"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":MEASure:ITEM fdelay"}
+    ]
+  },
+  {
+    "name": "rigol_setup_trace_stop_delay",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.000011"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel2:probe 1"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":MEASure:ITEM fdelay"}
+    ]
+  },
+  {
+    "name": "rigol_setup_trace_ecp_delay",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.0000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000011"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel2:probe 10"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":MEASure:ITEM fdelay"}
+    ]
+  },
+  {
+    "name": "rigol_setup_trace_gpio_delay",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.0000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000011"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel2:probe 1"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":MEASure:ITEM fdelay"},
+      {"name": ":MEASure:ITEM rdelay"},
+      {"name": ":MEASure:ITEM nwidth, channel1"},
+      {"name": ":MEASure:ITEM pwidth, channel1"}
+    ]
+  },
+  {
+    "name": "rigol_setup_ctx_switch_delay",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay ON"},
+      {"name": ":CHANnel2:DISPlay OFF"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Positive"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":TIMebase:MAIN:SCALe 0.000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.000011"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel1:probe 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":MEASure:ITEM pwidth"}
+    ]
+  },
+  {
+    "name": "rigol_setup_trace_ecp_wave",
+    "cmds": [
+      {"name": ":CHANnel1:DISPlay OFF"},
+      {"name": ":CHANnel2:DISPlay ON"},
+      {"name": ":TRIGger:EDGe:SOURce CHANnel2"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel2:OFFset -2.5"},
+      {"name": ":channel2:probe 10"}
+    ]
+  },
+  {
+    "name": "trigger_positive",
+    "cmds": [
+      {"name": ":TRIGger:EDGe:SLOPe Positive"}
+    ]
+  },
+  {
+    "name": "trigger_negative",
+    "cmds": [
+      {"name": ":TRIGger:EDGe:SLOPe Negative"}
+    ]
+  },
+  {
+    "name": "timebase_50ns",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.00000005"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.000000275"}
+    ]
+  },
+  {
+    "name": "timebase_100ns",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.0000001"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.00000055"}
+    ]
+  },
+  {
+    "name": "timebase_200ns",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.0000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000011"}
+    ]
+  },
+  {
+    "name": "timebase_500ns",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.0000005"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.00000275"}
+    ]
+  },
+  {
+    "name": "timebase_1µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.000001"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000055"}
+    ]
+  },
+  {
+    "name": "timebase_2µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.000002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.000011"}
+    ]
+  },
+  {
+    "name": "timebase_5µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.000005"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000275"}
+    ]
+  },
+  {
+    "name": "timebase_10µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.000010"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.0000555"}
+    ]
+  },
+  {
+    "name": "timebase_50µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.000050"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.00025"}
+    ]
+  },
+  {
+    "name": "timebase_200µs",
+    "cmds": [
+      {"name": ":TIMebase:MAIN:SCALe 0.0002"},
+      {"name": ":TIMebase:MAIN:OFFSet 0.001"}
+    ]
+  },
+  {
+    "name" : "trigger_swo_trace_single",
+    "cmd" : [
+      {"name": ":SINGLE"}
+    ]
+  },
+  {
+    "name": "trigger_swo_trace_setup_rising",
+    "cmds": [
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Positive"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"}
+    ]
+  },
+  {
+    "name": "trigger_swo_trace_setup_falling",
+    "cmds": [
+      {"name": ":TRIGger:EDGe:SOURce CHANnel1"},
+      {"name": ":TRIGger:EDGe:SLOPe Negative"},
+      {"name": ":TRIGger:EDGe:LEVel 2.0"},
+      {"name": ":ACQuire:TYPE NORMAL"},
+      {"name": ":ACQuire:MDEPth AUTO"},
+      {"name": ":channel1:scale 1"},
+      {"name": ":channel2:scale 1"},
+      {"name": ":channel1:OFFset -2.5"},
+      {"name": ":channel2:OFFset -2.5"}
+    ]
+  }
+]

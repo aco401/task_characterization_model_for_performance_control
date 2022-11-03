@@ -1,0 +1,127 @@
+[   
+
+    {
+        "json_name" : "tci",
+        "cmd_name" : "tci",
+        "work_args": [[0, 1, 2], [0, 1, 2]], 
+        "makefile_dep": "WL_TCI=1",
+        "filename_addon": "",
+        "iter_idx" : 2,
+        "iter":1000000,
+        "iter_mode": 0
+    },
+    {
+        "json_name" : "tci_float",
+        "cmd_name" : "tci_float",
+        "work_args": [[0, 1, 2], [0, 1, 2]], 
+        "makefile_dep": "WL_TCI=1",
+        "filename_addon": "",
+        "iter_idx" : 2,
+        "iter":1000000,
+        "iter_mode": 0
+    },
+    {
+        "json_name" : "tci_double",
+        "cmd_name" : "tci_double",
+        "work_args": [[0, 1, 2], [0, 1, 2]], 
+        "makefile_dep": "WL_TCI=1",
+        "filename_addon": "",
+        "iter_idx" : 2,
+        "iter":10000,
+        "iter_mode": 2
+    },
+    {
+        "json_name": "compress",
+        "cmd_name": "compress",
+        "work_args": null,
+        "makefile_dep": "WL_COMPRESS=1",
+        "iter_idx" : null,
+        "iter":1000,
+        "iter_mode": 1
+    },
+    {
+        "json_name" : "sleep",
+        "cmd_name" : "sleep",
+        "work_args": null, 
+        "makefile_dep": "WL_SLEEP=1", 
+        "iter_idx" : 0,
+        "iter": 1000000
+    },
+    {
+        "json_name" : "encrypt",
+        "cmd_name" : "encrypt",
+        "work_args": [[512]],
+        "filename_addon": "",
+        "makefile_dep": "WL_AES=1", 
+        "iter_idx" : null,
+        "iter":1000,
+        "iter_mode": 1
+    },
+    {
+        "json_name" : "decrypt",
+        "cmd_name" : "decrypt",
+        "work_args": [[512]],
+        "filename_addon": "",
+        "makefile_dep": "WL_AES=1",
+        "iter_idx" : null,
+        "iter":1000,
+        "iter_mode": 1
+    },
+    {
+        "json_name" : "fft",
+        "cmd_name" : "fft",
+        "work_args": [[32, 64, 256], [0, 1]], 
+        "makefile_dep": "WL_FFT=1", 
+        "filename_addon": "",
+        "iter_idx" : null,
+        "iter":2000,
+        "iter_mode": 1
+    },
+    {
+        "json_name" : "adc",
+        "cmd_name" : "adc",
+        "work_args": [[125, 500, 1000, 8000], [6, 8, 10]], 
+        "makefile_dep": "WL_ADC=1", 
+        "iter_idx" : 2,
+        "iter":40000,
+        "iter_mode": 0
+    },
+    {
+        "json_name" : "gpio",
+        "cmd_name" : "gpio",
+        "work_args": [[0, 1]],
+        "makefile_dep": "WL_GPIO=1",
+        "iter_idx" : 1,
+        "iter":10000,
+        "iter_mode": 1
+    },
+    {
+        "json_name" : "bitbang_gpio",
+        "cmd_name" : "bitbang_gpio",
+        "work_args": [[16, 128, 1024]],
+        "makefile_dep": "WL_BITBANG_GPIO=1",
+        "iter_idx" : 1,
+        "iter":80,
+        "iter_mode": 2
+    },
+    {
+        "json_name" : "spi",
+        "cmd_name" : "spi",
+        "work_args": [[100000, 1000000, 5000000, 10000000]], 
+        "makefile_dep": "WL_SPI=1",
+        "iter_idx" : 1,
+        "iter": 80,
+        "iter_mode": 0,
+        "filename_addon": ""
+    },
+    {
+        "json_name" : "ctx_switch",
+        "cmd_name" : "ctx_switch",
+        "work_args": null, 
+        "makefile_dep": "WL_CTX_SWITCH=1",
+        "iter_idx" : 0,
+        "iter": 50000,
+        "iter_mode": 0,
+        "filename_addon": ""
+    }
+]

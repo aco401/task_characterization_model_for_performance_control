@@ -1,0 +1,47 @@
+[
+    {
+        "json_name" : "swo_prf_overhead_basic",
+        "cmd_name" : "swo_prf_overhead_basic",
+        "work_args": [[0, 1, 2, 3, 5, 6, 7, 9], [0, 1, 2]], 
+        "makefile_dep": "WL_SWO_PRF_OVERHEAD=1",
+        "constant_cmd_arg" : "",
+        "trigger_dmm": 0,
+        "iter_idx" : 2,
+        "iter": 100000,
+        "iter_mode": 0,
+        "filename_addon" : ""
+    },
+    {
+        "json_name" : "swo_prf_overhead_phases",
+        "cmd_name" : "swo_prf_overhead_phases",
+        "work_args": [[0, 1, 2, 3, 4], [0, 1, 2]], 
+        "makefile_dep": "WL_SWO_PRF_OVERHEAD=1",
+        "constant_cmd_arg" : "",
+        "trigger_dmm": 0,
+        "iter_idx" : 2,
+        "iter": 100000,
+        "iter_mode": 0,
+        "filename_addon" : ""
+    },
+    {
+        "json_name" : "swo_prf_overhead_test",
+        "cmd_name" : "swo_prf_overhead",
+        "work_args": [[0], [0]], 
+        "makefile_dep": "WL_SWO_PRF_OVERHEAD=1",
+        "constant_cmd_arg" : "",
+        "trigger_dmm": 0,
+        "iter_idx" : 2,
+        "iter": 10000,
+        "iter_mode": 2,
+        "filename_addon" : "hi"
+    },
+    {
+        "json_name" : "swo_tpiu_conf",
+        "cmd_name" : "swo_conf",
+        "work_args": [[0, 1, 2, 3, 4, 5], [1, 2]], 
+        "makefile_dep": "WL_SWO_PRF_OVERHEAD=1", 
+        "iter_idx" : 2,
+        "iter": 10000,
+        "iter_mode": 2
+    }
+]

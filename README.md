@@ -5,12 +5,12 @@ Author: Tobias Westphal, Email: tobias.westphal@haw-hamburg.de
 This repository contains source code, scripts and data that has been created alongside the thesis.
 
 ## This repository lists:
-- RIOT ScaleClock Fork on `clock_config_clean_task_characterization` branch containing: {µC} (`RiotClockConf/`)
+- RIOT ScaleClock Fork on clock_config_clean_task_characterization branch containing: {µC} (`RiotClockConf/`)
     - Implementation of task characterization model with Nucleo-l476RG board (`drivers/armv7m_dbg_task_characterization`)
     - Task Benchmark Utility to
-        - trace workloads with the task characterization model (`tests/gclk/profiling_counter_bench.c` and `tests/gclk/workloads.c`)
-        - start energy measurements (`tests/gclk/profiling_counter_bench.c`)
-        - measure the delay of the trace utlity and perform TPIU configuration tests (`tests/oszilloscope-and-tests/`)
+        - Trace workloads with the task characterization model (`tests/gclk/profiling_counter_bench.c` and `tests/gclk/workloads.c`)
+        - Start energy measurements (`tests/gclk/profiling_counter_bench.c`)
+        - Measure the delay of the trace utlity and perform TPIU configuration tests (`tests/oszilloscope-and-tests/`)
 
     - BEEBS set of tasks to evaluate the task characterization model with (`pkg/beebs/`)
     - MiBench2 set of tasks for potentially usage (`pkg/mibench2`) 
@@ -19,7 +19,7 @@ This repository contains source code, scripts and data that has been created alo
     - Experiment Utility - start automated task characterization, energy or delay experiments and save data to pickle of DataFrame (`experiment_to_pickle.py`)
     - Data Processing - Merge data pickles for easier plotting (`pickle_merge.py`)
     - Data Visualization - Plot DataFrames from pickles (`pickle_to_plot.py`)
-    - Data Conversion - Convert CSV Data of the USART communication with board to pickle of DataFrame (`csv_to_pickle.py`)
+    - Data Conversion - Convert CSV Data to pickle of DataFrame (`csv_to_pickle.py`)
 
     - Static Analysis of assembler files (`assembler_stat_analysis.py`)
     - Communicate with RigolDS1054Z (`rigol_ds1054z.py`)
@@ -44,7 +44,7 @@ This repository contains source code, scripts and data that has been created alo
 
 
 ## Links:
-- RIOT Fork on `clock_config_clean_task_characterization` branch [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization] (RiotClockConf/)
+- RIOT Fork on clock_config_clean_task_characterization branch [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization] (RiotClockConf/)
 - RIOT Beebs pkg - [https://github.com/aco401/RIOT/tree/feature-beebs]
 - BEEBS patches-for-riot branch - [https://github.com/aco401/beebs/tree/patches-for-riot]
 - MiBench2 patches-for-riot branch - [https://github.com/aco401/MiBench2/tree/patches-for-riot]

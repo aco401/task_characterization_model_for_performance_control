@@ -19,7 +19,7 @@ This repository contains source code, scripts and data that has been created alo
     - Experiment Utility - start automated task characterization, energy or delay experiments and save data to pickle of DataFrame (`experiment_to_pickle.py`)
     - Data Processing - Merge data pickles for easier plotting (`pickle_merge.py`)
     - Data Visualization - Plot DataFrames from pickles (`pickle_to_plot.py`)
-    - Data Conversion - Convert CSV Data of the USART communication with board to pickle of DataFrame (c`sv_to_pickle.py`)
+    - Data Conversion - Convert CSV Data of the USART communication with board to pickle of DataFrame (`csv_to_pickle.py`)
 
     - Static Analysis of assembler files (`assembler_stat_analysis.py`)
     - Communicate with RigolDS1054Z (`rigol_ds1054z.py`)

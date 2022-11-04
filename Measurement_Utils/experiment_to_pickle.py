@@ -922,13 +922,6 @@ def energy_repetition(dut, dmm, cmd_dyn:str, energy_len:list, energy_data:list, 
 
         energy_data.append(pd.DataFrame(data=[temp_serial_csv_data], columns=temp_serial_csv_header))
 
-#RIGOL_IP = "141.22.28.155"
-RIGOL_IP = "192.168.1.150"
-RIGOL_PORT = 5555
-RIGOL_EXPERIMENT_SAMPLERATE_COLUMN = "RIGOL_SAMPLERATE"
-RIGOL_EXPERIMENT_TIMEBASESCALE_COLUMN = "RIGOL_TIMEBASE"
-
-RIGOL_LAN_DEV = {"type": "lan", "ip":RIGOL_IP, "port": RIGOL_PORT}
 
 def measure_trace_delay(dut, shell_args:dict): # TODO Add work_params
     rigol = rigol_ds1054z(RIGOL_LAN_DEV, False)

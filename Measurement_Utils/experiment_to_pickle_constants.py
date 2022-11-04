@@ -9,7 +9,7 @@
 # SWO BENCH CONSTANTS
 SWO_BENCH_RIOT_SHELL_ARG = ["name", "prf_cnt", "work_args",
                             "iter_mode", "iter_idx", "iter", "freq", "fwsa", "dvs_pol"]
-# // TODO Calculate how much time - depends on timeout length
+
 SWO_BENCH_SERIAL_MAX_TIMEOUT = None
 SWO_BENCH_BREAK_ERROR = False
 
@@ -128,3 +128,11 @@ BENCH_NAME_BEEBS_FLOAT_INSTRUCTIONS = ["beebs_stb_perlin",
 
 BENCH_NAME_GROUP_TO_NAME_LIST = {
     "BCC": BENCH_NAME_BEEBS_CYCLE_SAVING_NAME_LIST, "BFI":BENCH_NAME_BEEBS_FLOAT_INSTRUCTIONS}
+
+# Rigol Oscilloscope Stuff
+RIGOL_IP = "192.168.1.150"
+RIGOL_PORT = 5555
+RIGOL_EXPERIMENT_SAMPLERATE_COLUMN = "RIGOL_SAMPLERATE"
+RIGOL_EXPERIMENT_TIMEBASESCALE_COLUMN = "RIGOL_TIMEBASE"
+
+RIGOL_LAN_DEV = {"type": "lan", "ip":RIGOL_IP, "port": RIGOL_PORT}

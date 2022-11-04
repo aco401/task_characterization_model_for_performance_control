@@ -7,7 +7,6 @@ This repository contains source code, scripts and data that has been created alo
 ## This repository lists:
 - RIOT ScaleClock Fork on `clock_config_clean_task_characterization` branch containing: {µC} (RiotClockConf/)
     - Implementation of task characterization model with Nucleo-l476RG board (drivers/armv7m_dbg_task_characterization)
-
     - Task Benchmark Utility to
         - trace workloads with the task characterization model (tests/gclk/profiling_counter_bench.c & tests/gclk/workloads.c)
         - start energy measurements (tests/gclk/profiling_counter_bench.c)
@@ -29,7 +28,7 @@ This repository contains source code, scripts and data that has been created alo
 - Data: (Data/)
     - Compiled BEEBS source code for static analysis (assembler_code/)
     - Configuration json files for benchmarks (json_config_files/)
-    - Measured Task Characterization Results, Energy Results, Delay Results (results/)
+    - Measured Task Characterization Results, Energy Results, Delay Results - used by plot scripts (results/)
 
 - Scripts: (Scripts/)
     - Start experiment (Experiment/)
@@ -39,15 +38,18 @@ This repository contains source code, scripts and data that has been created alo
     - Plot data with pickle (Plots/)
         - Beebs Energy Plots (beebs_plot_cmd_energy.sh)
         - Beebs task characterization Plots (beebs_plot_cmd_swo.sh)
-        - Overhead Power task characterization Plots (overhead_power_plot_cmd.sh)
         - Overhead Delay task characterization Plots (overhead_delay_plot_cmd.sh)
         - Synthetic Tasks Energy Plots (synthetic_plot_cmd_energy.sh)
         - Synthetic Tasks task characterization Plots (synthetic_plot_cmd_swo.sh)
 
 
 ## Links:
+- RIOT Fork on `clock_config_clean_task_characterization` branch [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization] (RiotClockConf/)
+- RIOT Beebs pkg - [https://github.com/aco401/RIOT/tree/feature-beebs]
 - BEEBS patches-for-riot branch - [https://github.com/aco401/beebs/tree/patches-for-riot]
 - MiBench2 patches-for-riot branch - [https://github.com/aco401/MiBench2/tree/patches-for-riot]
-- RIOT Beebs pkg - [https://github.com/aco401/RIOT/tree/feature-beebs]
 
-- RIOT Fork on `clock_config_clean_task_characterization` branch [https://github.com/MichelRottleuthner/RiotClockConf/tree/clock_config_clean_task_characterization] (RiotClockConf/)
+- Measurement Utility Repository for DMM7510 - used by experiment_to_pickle [https://github.com/MichelRottleuthner/MeasurementUtils] 
+
+
+

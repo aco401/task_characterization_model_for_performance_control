@@ -25,14 +25,9 @@ import itertools
 from pathlib import Path
 import sys
 
-try:
-    sys.path.append("MeasurementUtils")
-    import dmm_control
-    from rigol_ds1054z import rigol_ds1054z
-except:
-    sys.path.append("../MeasurementUtils")
-    import dmm_control
-    from rigol_ds1054z import rigol_ds1054z, rigol_lan_dev
+
+import dmm_control
+from rigol_ds1054z import rigol_ds1054z, rigol_lan_dev
 
 # // TODO ADD flash return code feature to avoid running further when a flashing error occurs
 

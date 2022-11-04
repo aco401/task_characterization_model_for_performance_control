@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# Copyright (C) 2022 Tobias Westphal <tobias.westphal@haw-hamburg.de>
+#
+# This file is subject to the terms and conditions of the GNU Lesser
+# General Public License v2.1. See the file LICENSE in the top level
+# directory for more details.
+
 import argparse
 from copy import deepcopy
 from curses import meta
@@ -28,12 +34,8 @@ import json
 
 from experiment_to_pickle_constants import BENCH_NAME_GROUP_TO_NAME_LIST, COL_NAME_BENCH_REPETITION, COL_NAME_CURRENT_STAT_MEAN, COL_NAME_ENERGY_BENCH_CURRENT, COL_NAME_TRACE_DELAY_DELAY, COL_NAME_TRACE_SAMPLES_WAVE, BENCHMARK_TYPES, EMPIRIC_STAT_POWER, EMPIRIC_STAT_POWER_BEEBS, FLASH_CACHE_TO_STRING, SWO_BENCH_FLASH_CACHE_COL, SWO_BENCH_INDEX_TO_CNTTYPE, METADATA_MODFICATION_KEY, DVS_POL_INDEX_TO_STRING, COL_NAME_BENCH_CACHE, SWO_BENCH_CNT_TYPE_COL, COL_NAME_CURRENT_STAT_MEDIAN, COL_NAME_CURRENT_STAT_MODE, SWO_BENCH_DVS_POL_COL, EMPIRIC_STAT_POWER, COL_NAME_CURRENT_STAT_MIN, COL_NAME_CURRENT_STAT_MAX, SWO_BENCH_INDEX_TO_ENCODING, SWO_BENCH_INDEX_TO_FREQ, SWO_BENCH_FREQ_COL
 
-try:
-    sys.path.append("MeasurementUtils")
-    from rigol_ds1054z import rigol_ds1054z
-except:
-    sys.path.append("../MeasurementUtils")
-    from rigol_ds1054z import rigol_ds1054z
+
+from rigol_ds1054z import rigol_ds1054z
 
 
 INDEX_TO_COLOR = {0:'g', 1:'r', 2:'b', 3:"y", 4:"m", 5:"k", 6:"c"}

@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# Copyright (C) 2022 Tobias Westphal <tobias.westphal@haw-hamburg.de>
+#
+# This file is subject to the terms and conditions of the GNU Lesser
+# General Public License v2.1. See the file LICENSE in the top level
+# directory for more details.
+
 # SWO BENCH CONSTANTS
 SWO_BENCH_RIOT_SHELL_ARG = ["name", "prf_cnt", "work_args",
                             "iter_mode", "iter_idx", "iter", "freq", "fwsa", "dvs_pol"]

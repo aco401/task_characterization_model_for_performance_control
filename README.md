@@ -9,7 +9,7 @@ This repository contains source code, scripts and data that has been created alo
     - Implementation of task characterization model with Nucleo-l476RG board (`drivers/armv7m_dbg_task_characterization`)
     - Task Benchmark Utility to
         - Trace workloads with the task characterization model (`tests/gclk/profiling_counter_bench.c` and `tests/gclk/workloads.c`)
-        - Start energy measurements (`tests/gclk/profiling_counter_bench.c`)
+        - Start energy measurements (`tests/gclk/profiling_counter_bench[.c, .h]`)
         - Measure the delay of the trace utlity and perform TPIU configuration tests (`tests/oszilloscope-and-tests/`)
 
     - BEEBS set of tasks to evaluate the task characterization model with (`pkg/beebs/`)

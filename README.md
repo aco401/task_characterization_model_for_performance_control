@@ -8,11 +8,11 @@ This repository contains source code, scripts and data that has been created alo
 - RIOT ScaleClock Fork on clock_config_clean_task_characterization branch containing (*ScaleClock and the RIOT code was given*): {µC} (`RiotClockConf/`) 
     - Implementation of task characterization model with Nucleo-l476RG board (`drivers/armv7m_dbg_task_characterization`)
     - Task Benchmark Utility to
-        - Trace workloads with the task characterization model (`tests/gclk/profiling_counter_bench.c` and `tests/gclk/workloads.c`)
+        - Trace workloads with the task characterization model (`tests/gclk/profiling_counter_bench[.c, .h]` and `tests/gclk/workloads[.c, .h]`)
         - Start energy measurements (`tests/gclk/profiling_counter_bench[.c, .h]`)
         - Measure the delay of the trace utlity and perform TPIU configuration tests (`tests/oszilloscope-and-tests/`)
 
-    - BEEBS set of tasks to evaluate the task characterization model with (`pkg/beebs/`)
+    - BEEBS set of tasks to evaluate the task characterization model with (`pkg/beebs/` and `tests/gclk/beebs_workload.h`)
     - MiBench2 set of tasks for potentially usage (`pkg/mibench2`) 
 
 - Measurement Utilities: {PC} (`Measurement_Utils/`)

@@ -1,4 +1,4 @@
-# Appendix of bachelor thesis on topic: Design and Evaluation of a Task Characterization Model for Performance Control of Embedded Devices at Runtime
+# Appendix of Bachelor Thesis on Topic: Design and Evaluation of a Task Characterization Model for Performance Control of Embedded Devices at Runtime
 
 Author: Tobias Westphal, Email: tobias.westphal@haw-hamburg.de
 

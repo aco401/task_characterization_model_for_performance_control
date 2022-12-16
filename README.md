@@ -5,6 +5,9 @@ Author: Tobias Westphal, Email: tobias.westphal@haw-hamburg.de
 This repository contains source code, scripts and data that has been created alongside the thesis. This repository also includes a RIOT ScaleClock Fork, which was not created in this thesis, but contains integrated tests and packages that were created. This enables to easily reproduce and test the designed components. The created parts are listed in the following:
 
 ## This repository lists:
+- Document: (`Document/`)
+    - thesis and presentation document
+    - images and illustration scripts (`/presi_images` + `/thesis_images`)
 - RIOT ScaleClock Fork on clock_config_clean_task_characterization branch containing (*ScaleClock and the RIOT code was given*): {µC} (`RiotClockConf/`) 
     - Implementation of task characterization model with Nucleo-l476RG board (`drivers/armv7m_dbg_task_characterization`)
     - Task Benchmark Utility to
